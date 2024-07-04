@@ -1,6 +1,8 @@
-# Static Website Deployment
+# HNG Projects
 
-## Project Overview
+## Project 1 - Static Website Deployment
+
+### Project Overview
 
 This project involves deploying a static website onto an AWS EC2 instance using NGINX as the web server. The website includes personal information and links to social profiles. The deployment method is via `Terraform IAC` using `hcl language`
 
@@ -53,3 +55,8 @@ This project involves deploying a static website onto an AWS EC2 instance using 
 - ec2
 - igw
 - security group
+
+
+## Project 2 - 
+
+### Project Overview
