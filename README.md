@@ -56,6 +56,13 @@ This project involves deploying a static website onto an AWS EC2 instance using 
 - igw
 - security group
 
+#### How To
+- after `terraform apply`, the public ip address of the ec2 is displayed.
+- you may need to reconfigure the backend to use local for your `terraform.tfstate` file
+- access the website by pasting the public ip of the instance in your browser.
+  ```
+  http://ec2_public_ip_address
+
 
 ## Project 2 - 
 
