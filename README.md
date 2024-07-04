@@ -58,6 +58,7 @@ This project involves deploying a static website onto an AWS EC2 instance using 
 - access the website by pasting the public ip of the instance in your browser.
   ```
   http://ec2_public_ip_address
+  ```
 
 
 ## Project 2 - 
