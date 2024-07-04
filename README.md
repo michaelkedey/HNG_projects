@@ -6,13 +6,13 @@
 
 This project involves deploying a static website onto an AWS EC2 instance using NGINX as the web server. The website includes personal information and links to social profiles. The deployment method is via `Terraform IAC` using `hcl language`
 
-## Prerequisites
+#### Prerequisites
 
 - AWS account
 - Terraform installed
 - AWS CLI configured with appropriate credentials
 
-## Project Structure
+#### Project Structure
 ```plaintext
 .
 |-- README.md
@@ -49,7 +49,7 @@ This project involves deploying a static website onto an AWS EC2 instance using 
 
 ```
 
-## Project Resources
+#### Project Resources
 - vpc &subnet
 - route table & route table association
 - ec2
