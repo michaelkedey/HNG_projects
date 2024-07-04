@@ -15,30 +15,32 @@ This project involves deploying a static website onto an AWS EC2 instance using 
 #### Project Structure
 ```plaintext
 .
-`-- src
-    |               `-- webserver
-    |   |           `-- backend.tfvars
-    |   |           `-- format.sh
-    |   |           `-- main.tf
-    |   |           `-- modules
-    |   |   |       `-- nginx
-    |   |   |   |   `-- nginx.sh
-    |   |   |   |   `-- provider.tf
-    |   |   |   |   `-- variables.tf
-    |   |   |       `-- web_server.tf
-    |   |   `-- vpc
-    |   |       |   `-- variables.tf
-    |   |           `-- vpc.tf
-    |   |-- output.tf
-    |   |-- providers.tf
-    |   |-- terraform.tfstate
-    |   `-- terraform.tfstate.backup
-    `-- webserver_files
-        |-- index.html
-        |-- script.js
-        `-- styles.css
+|-- README.md
+`-- static_webpage
+    `-- src
+        |-- webserver
+        |   |-- backend.tfvars
+        |   |-- format.sh     
+        |   |-- main.tf     
+        |   |-- modules     
+        |   |   |-- nginx   
+        |   |   |   |-- nginx.sh
+        |   |   |   |-- provider.tf
+        |   |   |   |-- variables.tf
+        |   |   |   `-- web_server.tf
+        |   |   `-- vpc
+        |   |       |-- variables.tf
+        |   |       `-- vpc.tf
+        |   |-- output.tf
+        |   |-- providers.tf
+        |   |-- terraform.tfstate
+        |   `-- terraform.tfstate.backup
+        `-- webserver_files
+            |-- index.html
+            |-- script.js
+            `-- styles.css
 
-6 directories, 16 files
+7 directories, 17 files
 
 
 ```
